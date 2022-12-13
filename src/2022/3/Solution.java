@@ -1,5 +1,3 @@
-package mck.adventofcode.year2022;
-
 import static java.lang.Character.isUpperCase;
 
 import java.io.File;

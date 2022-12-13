@@ -1,5 +1,3 @@
-package mck.adventofcode.year2022.day1;
-
 import java.io.File;
 import java.util.Scanner;
 
