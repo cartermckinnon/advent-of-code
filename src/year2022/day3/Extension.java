@@ -1,3 +1,5 @@
+package year2022.day3;
+
 import static java.lang.Character.isUpperCase;
 
 import java.io.File;
@@ -5,7 +7,9 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-/** @author carter */
+/**
+ * @author carter
+ */
 public class Extension {
   public static void main(String[] args) throws Exception {
     if (args.length != 1) {

@@ -1,4 +1,4 @@
-package mck.adventofcode.year2021;
+package year2021.day14;
 
 import java.io.File;
 import java.io.IOException;

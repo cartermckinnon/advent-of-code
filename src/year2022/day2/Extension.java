@@ -1,7 +1,11 @@
+package year2022.day2;
+
 import java.io.File;
 import java.util.Scanner;
 
-/** @author carter */
+/**
+ * @author carter
+ */
 public class Extension {
   public static void main(String[] args) throws Exception {
     if (args.length != 1) {

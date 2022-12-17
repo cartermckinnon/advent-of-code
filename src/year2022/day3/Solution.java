@@ -1,9 +1,13 @@
+package year2022.day3;
+
 import static java.lang.Character.isUpperCase;
 
 import java.io.File;
 import java.util.Scanner;
 
-/** @author carter */
+/**
+ * @author carter
+ */
 public class Solution {
   public static void main(String[] args) throws Exception {
     if (args.length != 1) {

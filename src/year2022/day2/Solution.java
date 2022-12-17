@@ -1,7 +1,11 @@
+package year2022.day2;
+
 import java.io.File;
 import java.util.Scanner;
 
-/** @author carter */
+/**
+ * @author carter
+ */
 public class Solution {
   public static void main(String[] args) throws Exception {
     if (args.length != 1) {
@@ -31,18 +35,18 @@ public class Solution {
       this.pointValue = pointValue;
     }
 
-  public static Move fromCode(String code) {
-    switch (code) {
-      case "A", "X":
-        return Move.ROCK;
-      case "B", "Y":
-        return Move.PAPER;
-      case "C", "Z":
-        return Move.SCISSORS;
-      default:
-        throw new UnsupportedOperationException("unknown move: " + code);
+    public static Move fromCode(String code) {
+      switch (code) {
+        case "A", "X":
+          return Move.ROCK;
+        case "B", "Y":
+          return Move.PAPER;
+        case "C", "Z":
+          return Move.SCISSORS;
+        default:
+          throw new UnsupportedOperationException("unknown move: " + code);
+      }
     }
-  }
 
     public Outcome determineOutcome(Move opponent) {
       if (opponent == this) {
